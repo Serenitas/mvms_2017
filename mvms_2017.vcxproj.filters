@@ -33,7 +33,7 @@
     <ClInclude Include="task5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Komissarov_Alexander_201732140_Task1.h">
+    <ClInclude Include="Isachenko_Vladimir_201705302_Task1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,7 +56,7 @@
     <ClCompile Include="task5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Komissarov_Alexander_201732140_Task1.cpp">
+    <ClCompile Include="Isachenko_Vladimir_201705302_Task1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

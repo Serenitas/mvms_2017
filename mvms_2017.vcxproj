@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="commun_task.h" />
-    <ClInclude Include="Komissarov_Alexander_201732140_Task1.h" />
+    <ClInclude Include="Isachenko_Vladimir_201705302_Task1.h" />
     <ClInclude Include="task1.h" />
     <ClInclude Include="task2.h" />
     <ClInclude Include="task3.h" />
@@ -119,7 +119,7 @@
     <ClInclude Include="task5.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Komissarov_Alexander_201732140_Task1.cpp" />
+    <ClCompile Include="Isachenko_Vladimir_201705302_Task1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="task1.cpp" />
     <ClCompile Include="task2.cpp" />
