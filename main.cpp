@@ -3,6 +3,9 @@
 #include "task3.h"
 #include "task4.h"
 #include "task5.h"
+
+#include "Isachenko_Vladimir_201705302_Task1.h"
+
 int main(int argc, char *argv[])
 {
     mvms_2017::Task1 x(true);
@@ -10,9 +13,13 @@ int main(int argc, char *argv[])
     mvms_2017::Task3 x2(true);
     mvms_2017::Task4 x3(true);
     mvms_2017::Task5 x4(true);
-    try
+
+	mvms_2017::Isachenko_Vladimir_201705302_Task1 my_class;
+
+	try
 	{
-        x.drawCircle("Test",1,1,1);
+        cv::imshow("DISPLAY", my_class.drawCircle("Lenna.png", 50, 50, 15));
+		cv::waitKey(0);
     }
 	catch(std::exception ex)
 	{
