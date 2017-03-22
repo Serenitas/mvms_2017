@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 	try
 	{
-        cv::imshow("DISPLAY", my_class.drawCircle("Lenna.png", 50, 50, 15));
+        cv::imshow("DISPLAY", my_class.drawCircle("Lenna.png", 220, 220, 205));
 		cv::waitKey(0);
     }
 	catch(std::exception ex)
