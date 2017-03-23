@@ -4,7 +4,7 @@
 #include "task4.h"
 #include "task5.h"
 
-#include "Isachenko_Vladimir_201705302_Task1.h"
+#include "Strekalova_Svetlana_201700221_Task1.h"
 
 int main(int argc, char *argv[])
 {
@@ -14,11 +14,11 @@ int main(int argc, char *argv[])
     mvms_2017::Task4 x3(true);
     mvms_2017::Task5 x4(true);
 
-	mvms_2017::Isachenko_Vladimir_201705302_Task1 my_class;
+	mvms_2017::Strekalova_Svetlana_201700221_Task1 my_class;
 
 	try
 	{
-        cv::imshow("DISPLAY", my_class.drawCircle("Lenna.png", 220, 220, 205));
+        cv::imshow("Task1", my_class.drawCircle("Lenna.png", 220, 220, 205));
 		cv::waitKey(0);
     }
 	catch(std::exception ex)
